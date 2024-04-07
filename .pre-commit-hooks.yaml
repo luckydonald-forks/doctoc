@@ -1,11 +1,4 @@
--   id: doctoc
-    name: doctoc
-    language: node
-    entry: doctoc
-    types: [markdown]
-
 -   id: doctoc-docker
     name: doctoc
-    language: node
     entry: docker compose run doctoc-docker
     types: [markdown]

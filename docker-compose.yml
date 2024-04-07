@@ -4,3 +4,7 @@ services:
             context: .
             dockerfile: Dockerfile
         restart: "no"
+        volumes:
+            - ./:/app:rw
+        entrypoint: [ "doctoc" ]
+        command: [ "/app/README.md" ]
